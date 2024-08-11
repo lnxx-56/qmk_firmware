@@ -5,7 +5,7 @@ The json file was generated with the online configurator, because I had no idea 
 The json file was converted to .c file with json2c, and than simply copied the keymaps variable to the keymap.c file. (That is why it looks odd.)
 
 ## OLED Features
-My main goal was to set up RAW-HID, and send realtime messaged from the PC to the keyboard. The current implementation uses the left (main) side of the keyboard as a CPU monitor graph and the right (slave) one is a volume level graph.
+My main goal was to set up RAW-HID, and send realtime messaged from the PC to the keyboard. The current implementation uses the master side to display CPU/RAM/VOL statuses coming from the pc, and the slave side just showing an animation [https://github.com/marekpiechut/qmk-animations/tree/master](Link to animation)
 
 ### Future improvements
 - That would be good to have multiple screens and switch back and forth from the pc side or creating some hotkeys
@@ -29,4 +29,4 @@ qmk flash -kb lily58/rev1 -km lnxx-56 -e CONVERT_TO=promicro_rp2040
 ```
 
 ## Software for the PC side can be found on
-:point_right: **UNDER CONSTRUCTION** :point_left:
+:point_right: **UNDER CONSTRUCTION** :point_left

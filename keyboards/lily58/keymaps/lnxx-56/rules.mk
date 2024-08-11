@@ -13,6 +13,8 @@ OLED_ENABLE = yes           # OLED display
 OLED_DRIVER = ssd1306
 OLED_TRANSPORT = i2c
 RAW_ENABLE = yes
+OPT = s
+WPM_ENABLE = yes
 
 # If you want to change the display of OLED, you need to change here
 SRC +=  ./lib/rgb_state_reader.c \

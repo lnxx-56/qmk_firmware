@@ -29,6 +29,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define QUICK_TAP_TERM 0
 #define TAPPING_TERM 100
 
+#define SPLIT_WPM_ENABLE
+
 #undef RGBLIGHT_LED_COUNT
 #define RGBLIGHT_EFFECT_BREATHING
 #define RGBLIGHT_EFFECT_RAINBOW_MOOD
@@ -45,10 +47,3 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_HUE_STEP 10
 #define RGBLIGHT_SAT_STEP 17
 #define RGBLIGHT_VAL_STEP 17
-
-// Underglow
-/*
-#undef RGBLIGHT_LED_COUNT
-#define RGBLIGHT_LED_COUNT 14    // Number of LEDs
-#define RGBLIGHT_SLEEP
-*/
